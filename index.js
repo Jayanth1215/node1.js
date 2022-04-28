@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
     } else if (treatment == 'off') {
         res.send('Hello, Your Treatment is OFF!');
     } else {
-        res.send('Hello, This Is The Default!');
+        res.send('Hello Team!');
     }
 });
 
